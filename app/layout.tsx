@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://morale.com'),
   title: "Morale | Human-First AI Solutions from India",
   description: "Homegrown AI solutions proudly made in India. User-oriented, privacy-first, and beautifully simple. Building AI that respects humanity.",
   keywords: ["AI", "Privacy", "Machine Learning", "User-Friendly", "Data Privacy", "Morale", "India", "Made in India"],
